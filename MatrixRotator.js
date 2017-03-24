@@ -29,9 +29,7 @@ module.exports = class MatrixRotator {
       }
       this.matrix = newMatrix;
       return this.matrix;
-
     } else if(direction === "CounterClockWise") {
-      console.log(this.matrix);
       for (var k = this.matrix.length-1; k >= 0; k--) {
         var newCCWArr = [];
         for (var l = 0; l < this.matrix.length; l++) {
